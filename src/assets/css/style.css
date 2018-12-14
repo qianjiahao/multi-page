@@ -1,0 +1,29 @@
+.button {
+  padding: 8px 20px;
+  text-align: center;
+  font-size: 20px;
+  color: #348fe2;
+  border: 1px solid #348fe2;
+  cursor: pointer;
+  float: left;
+  margin: 10px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+}
+
+/* 覆盖antd样式 */
+.ant-layout-sider-trigger {
+  background-color: #2a323f;
+}
+
+#layout .ant-menu-item-selected {
+  background-color: #3b4455;
+}
+
+.layout-menu.ant-menu-dark .ant-menu-inline.ant-menu-sub {
+  background: #222a31 !important;
+}
+/* 覆盖antd样式 */
